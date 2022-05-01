@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-special-expit",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Create an iterator which evaluates the standard logistic function for each iterated value.",
   "license": "Apache-2.0",
   "author": {
