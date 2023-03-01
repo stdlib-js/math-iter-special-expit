@@ -153,9 +153,9 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/expit`][@stdlib/math/base/special/expit]</span><span class="delimiter">: </span><span class="description">standard logistic function.</span>
--   <span class="package-name">[`@stdlib/math/iter/special/exp`][@stdlib/math/iter/special/exp]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the natural exponential function for each iterated value.</span>
--   <span class="package-name">[`@stdlib/math/iter/special/logit`][@stdlib/math/iter/special/logit]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the logit function for each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/expit`][@stdlib/math/base/special/expit]</span><span class="delimiter">: </span><span class="description">standard logistic function.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/exp`][@stdlib/math/iter/special/exp]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the natural exponential function for each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/logit`][@stdlib/math/iter/special/logit]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the logit function for each iterated value.</span>
 
 </section>
 
