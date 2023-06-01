@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-special-expit
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterExpit from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-expit@esm/index.mjs';
+var iterExpit = require( '@stdlib/math-iter-special-expit' );
 ```
 
 #### iterExpit( iterator )
@@ -49,7 +65,7 @@ import iterExpit from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-e
 Returns an [iterator][mdn-iterator-protocol] which iteratively evaluates the [standard logistic][@stdlib/math/base/special/expit] function.
 
 ```javascript
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 var it = iterExpit( array2iterator( [ 0.0, 1.0 ] ) );
 // returns <Object>
@@ -93,14 +109,9 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterExpit from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-expit@esm/index.mjs';
+```javascript
+var uniform = require( '@stdlib/random-iter-uniform' );
+var iterExpit = require( '@stdlib/math-iter-special-expit' );
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( 0.0, 1.0, {
@@ -120,10 +131,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -163,7 +170,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -207,7 +214,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -227,11 +234,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit/tree/esm
+[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit
 
-[@stdlib/math/iter/special/exp]: https://github.com/stdlib-js/math-iter-special-exp/tree/esm
+[@stdlib/math/iter/special/exp]: https://github.com/stdlib-js/math-iter-special-exp
 
-[@stdlib/math/iter/special/logit]: https://github.com/stdlib-js/math-iter-special-logit/tree/esm
+[@stdlib/math/iter/special/logit]: https://github.com/stdlib-js/math-iter-special-logit
 
 <!-- </related-links> -->
 
